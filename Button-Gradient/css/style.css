@@ -1,0 +1,30 @@
+
+.centrado {
+    height: 100vh;
+    background:#1F2430;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-hover {
+    padding: 10px;
+    border: none;
+    width: 170px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: #fff;
+    background-size: 300% 100%;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .btn-hover.button {
+    box-shadow: 0 4px 20px 0 rgba(45, 116, 199, 0.50);
+    background-image: linear-gradient(to right, #be619c,  #766ab1, #766ab1, #be619c);
+  }
+  
+  .btn-hover:hover {
+    background-position: 100% 0;  
+  }
+  
+
